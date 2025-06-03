@@ -20,3 +20,7 @@ const baseMaps = {
 };
 
 L.control.layers(baseMaps).addTo(map);
+L.Control.geocoder({
+    defaultMarkGeocode: true,
+    position: 'topleft',
+}).addTo(map);

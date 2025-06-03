@@ -2,3 +2,25 @@
     height: 100vh;
     padding: 0%;
 }
+#searchBox {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+        transform: translateX(-50%);}
+
+#suggestions {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: auto;
+    max-width: 300px;
+    white-space: nowrap;
+    line-height: 1.5;
+    padding: 6px 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
